@@ -1,0 +1,116 @@
+*{
+box-sizing:content-box;
+margin: 10px;
+padding: 10px;
+}
+body{
+font-family:  Tahoma, Arial;
+}
+
+.slider-container{
+    margin: 10px auto;
+    width: 800px;
+    height: 250px;
+    position: relative;
+}
+.slider-controls{
+    margin: auto;
+    width: 800px;
+    overflow: hidden;
+    padding: 20px   200px;
+}
+.demoa div table  tr td.active{
+opacity: 1;   
+}
+.slider-controls .prev,
+.slider-controls .next,
+.slider-controls .letters
+{
+    background-color: aquamarine;
+    color: #000;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    user-select: none;
+    width: 20%;
+}
+
+.slider-controls .prev{
+    float: left;
+}
+.slider-controls .letters{
+    float: left;
+}
+.slider-controls .next{
+    float: right;
+}
+
+
+.slider-controls .prev.disabled,
+.slider-controls .next.disabled{
+    background-color: burlywood;
+    cursor: no-drop;
+}
+.slider-controls .indicatoer ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+#pagintion-ul #pagintion-li {
+    display: inline-block;
+    background-color: rgb(212, 247, 235);
+    color: #000;
+    font-size: bold;
+    width: 28px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 2px;
+    border-radius: 4px;
+    padding: 5px;
+    line-height: 28px;
+    width: 28px;
+}
+
+#slider-controls .indicatoers ul li.active1{
+    background-color: rgb(20, 114, 114);
+    color: cornsilk;
+}
+
+
+#slider-controls #desecending,
+#slider-controls #ascending,
+#slider-controls #letters,
+#slider-controls #addition,
+#slider-controls #showadd,
+#add1 #addspan ,
+#edit #editspan
+
+{
+    background-color: aquamarine;
+    color: #000;
+    font-size: 16px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+    user-select: none;
+    width: 20%;
+}
+
+#slider-controls #ascending{
+    float:none;
+}
+#slider-controls #letters{
+    float:none;
+}
+#slider-controls #desecending{
+    float:none;
+}
+#slider-controls #addition{
+    float:none;
+}
